@@ -1,7 +1,7 @@
 import 'package:e_commerce/widgets/star_rating.dart';
 import 'package:flutter/material.dart';
+import '../../resources/colors.dart';
 
-import '../resources/colors.dart';
 
 class TrendingCard extends StatelessWidget {
   final String? productName;

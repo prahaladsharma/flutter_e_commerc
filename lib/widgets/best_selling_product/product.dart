@@ -1,9 +1,9 @@
 import 'package:e_commerce/data/data.dart';
-import 'package:e_commerce/widgets/product_card.dart';
+import 'package:e_commerce/widgets/best_selling_product/product_card.dart';
 import 'package:flutter/material.dart';
 
-import '../model/product_model.dart';
-import '../resources/colors.dart';
+import '../../model/product_model.dart';
+import '../../resources/colors.dart';
 
 class Product extends StatefulWidget {
   const Product({Key? key}) : super(key: key);

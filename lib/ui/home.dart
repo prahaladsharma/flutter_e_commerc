@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import '../widgets/product.dart';
+import '../widgets/best_selling_product/product.dart';
 import '../widgets/search.dart';
-import '../widgets/trending.dart';
+import '../widgets/trending_product/trending.dart';
 
 class Home extends StatelessWidget {
   const Home({Key? key}) : super(key: key);

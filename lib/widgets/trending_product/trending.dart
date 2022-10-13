@@ -1,8 +1,7 @@
-import 'package:e_commerce/widgets/trending_card.dart';
+import 'package:e_commerce/widgets/trending_product/trending_card.dart';
 import 'package:flutter/material.dart';
-
-import '../data/data.dart';
-import '../model/trending_productmodel.dart';
+import '../../data/data.dart';
+import '../../model/trending_productmodel.dart';
 
 class Trending extends StatefulWidget {
   Trending({Key? key}) : super(key: key);

@@ -1,6 +1,4 @@
 import 'package:e_commerce/ui/home.dart';
-import 'package:e_commerce/widgets/search.dart';
-import 'package:e_commerce/widgets/trending_card.dart';
 import 'package:flutter/material.dart';
 
 void main() {
