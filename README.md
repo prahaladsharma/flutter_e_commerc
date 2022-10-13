@@ -2,6 +2,11 @@
 
 A new Flutter project.
 
+- Create home scree
+   - Add Trending and Product screen on the home page.
+- create trending class with card.
+- create product class with card.
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
