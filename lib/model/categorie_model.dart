@@ -1,12 +1,12 @@
-class CategoryModel {
-  String categorieName;
-  String imgAssetsPath;
-  String color1;
-  String color2;
+class CategorieModel {
+  String? categorieName;
+  String? imgAssetPath;
+  String? color1;
+  String? color2;
 
-  CategoryModel(
-      {required this.categorieName,
-      required this.imgAssetsPath,
-      required this.color1,
-      required this.color2});
+  CategorieModel(
+      { this.categorieName,
+       this.imgAssetPath,
+       this.color1,
+       this.color2});
 }

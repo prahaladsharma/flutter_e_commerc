@@ -1,15 +1,15 @@
 class ProductModel {
-  int priceInDollars;
-  String productName;
-  int rating;
-  String imgUrl;
-  int? noOfrating;
+  int? priceInDollars;
+  String? productName;
+  int? rating;
+  String? imgUrl;
+  int? noOfRating;
 
   ProductModel(
-      { required this.priceInDollars,
-        required this.productName,
-        required this.rating,
-        required this.imgUrl,
-        this.noOfrating });
+      {  this.priceInDollars,
+         this.productName,
+         this.rating,
+         this.imgUrl,
+        this.noOfRating });
 
 }
