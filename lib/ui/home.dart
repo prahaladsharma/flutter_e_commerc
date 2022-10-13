@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../widgets/best_selling_product/product.dart';
+import '../widgets/category/category.dart';
 import '../widgets/search.dart';
 import '../widgets/trending_product/trending.dart';
 
@@ -21,6 +22,8 @@ class Home extends StatelessWidget {
             Trending(),
             SizedBox(height: 30,),
             Product(),
+            SizedBox(height: 30,),
+            Category()
           ],
         ),
       ),

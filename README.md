@@ -1,11 +1,12 @@
 # e_commerce
 
-A new Flutter project.
+Create categories horizontal slide and added in home screen.
 
-- Create home scree
-   - Add Trending and Product screen on the home page.
-- create trending class with card.
-- create product class with card.
+- create two new classes.
+   - Category:- for business login
+   - CategoryCard:- for UI/Presentation logic
+   -  CategoryCard add in Category
+- Now add Category call add in Home.dart
 
 ## Getting Started
 
