@@ -1,13 +1,13 @@
 # e_commerce
 
-Create categories horizontal slide and added in home screen.
+Implement Bottom NavigationBar in home screen.
 
 - create two new classes.
-   - Category:- for business login
-   - CategoryCard:- for UI/Presentation logic
-   -  CategoryCard add in Category
-- Now add Category call add in Home.dart
-
+   - Dashboard.dart:- for bottom navigation bar
+        - Added home.dart, account.dart, profile.dart in bottom navigation bar
+   - account.dart
+   - profile.dart
+   
 ## Getting Started
 
 This project is a starting point for a Flutter application.
