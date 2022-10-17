@@ -1,7 +1,7 @@
 import 'package:e_commerce/ui/account.dart';
 import 'package:e_commerce/ui/profile.dart';
 import 'package:flutter/material.dart';
-
+import '../widgets/drawer/nav_bar.dart';
 import 'home.dart';
 
 class Dashboard extends StatefulWidget {
@@ -20,20 +20,11 @@ class _DashboardState extends State<Dashboard> {
     return Scaffold(
       backgroundColor: const Color(0xffC4DFCB),
       appBar: AppBar(
-        leading: Icon(
-          Icons.menu,
-          color: Theme.of(context).primaryColor,
-        ),
-        title: Text(
-          'Dashboard',
-          style: TextStyle(
-              color: Theme.of(context).primaryColor,
-              fontSize: 25,
-              fontWeight: FontWeight.w600),
-        ),
         centerTitle: true,
-        backgroundColor: Colors.white,
+        title: const Text('Dashboard'),
+        backgroundColor: const Color(0xff764abc),
       ),
+      drawer: NavBar(), //Drawer
       body: pages[pageIndex],
       bottomNavigationBar: buildNavBar(context),
     );

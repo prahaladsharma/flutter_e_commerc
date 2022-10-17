@@ -1,12 +1,10 @@
 # e_commerce
 
-Implement Bottom NavigationBar in home screen.
+Implement side drawer in home screen.
 
-- create two new classes.
-   - Dashboard.dart:- for bottom navigation bar
-        - Added home.dart, account.dart, profile.dart in bottom navigation bar
-   - account.dart
-   - profile.dart
+- create one new classes and call from dashboard.dart.
+   - nav_bar.dart:- for side drawer.
+- call nav_bar.dart from dashboard.dart.
    
 ## Getting Started
 
@@ -22,5 +20,6 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 
-![Screenshot]![bottom_navigation](https://user-images.githubusercontent.com/6931557/195820735-aa7775aa-68fc-4d10-9944-491fa8a712e7.png)
+![side_drawer](https://user-images.githubusercontent.com/6931557/196160123-3d7c747a-c933-40ad-81a0-c7b298523bd1.png)
+
 
