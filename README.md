@@ -20,6 +20,3 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 
-![side_drawer](https://user-images.githubusercontent.com/6931557/196160123-3d7c747a-c933-40ad-81a0-c7b298523bd1.png)
-
-
