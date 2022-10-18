@@ -1,5 +1,6 @@
 import 'package:e_commerce/ui/dashboard.dart';
 import 'package:e_commerce/ui/home.dart';
+import 'package:e_commerce/widgets/login/login_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: Dashboard()
+      home: LoginPage()
     );
   }
 }
